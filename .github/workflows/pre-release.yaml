@@ -7,9 +7,9 @@ on:
 permissions: read-all
 
 env:
-  IMAGE_REPO: openpolicyagent/gatekeeper
-  CRD_IMAGE_REPO: openpolicyagent/gatekeeper-crds
-  GATOR_IMAGE_REPO: openpolicyagent/gator
+  IMAGE_REPO: dulltz/gatekeeper
+  CRD_IMAGE_REPO: dulltz/gatekeeper-crds
+  GATOR_IMAGE_REPO: dulltz/gator
 
 jobs:
   pre-release:
